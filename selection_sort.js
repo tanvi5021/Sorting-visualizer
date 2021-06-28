@@ -4,7 +4,7 @@ function Selection_sort()
 
     for(var i=0;i<array_size-1;i++)
     {
-        div_update(divs[i],div_sizes[i],"red");//Color update
+        div_update(divs[i],div_sizes[i],"red");
 
         index_min=i;
 
@@ -14,8 +14,7 @@ function Selection_sort()
 
             if(div_sizes[j]<div_sizes[index_min])
             {
-                if(index_min!=i)
-                {
+                if(index_min!=i) {
                     div_update(divs[index_min],div_sizes[index_min],"blue");//Color update
                 }
                 index_min=j;
