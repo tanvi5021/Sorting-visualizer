@@ -18,7 +18,7 @@ function merge_sort(start,mid,end)
         if(p>mid)
         {
             Arr[k++]=div_sizes[q++];
-            div_update(divs[q-1],div_sizes[q-1],"red");//Color update
+            div_update(divs[q-1],div_sizes[q-1],"red");
         }
         else if(q>end)
         {
