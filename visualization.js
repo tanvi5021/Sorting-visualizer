@@ -2,7 +2,7 @@ var speed=1000;
 inp_aspeed.addEventListener("input",vis_speed);
 function vis_speed()
 {
-    var array_speed=inp_aspeed.value;
+    var array_speed=inp_aspeed.value; //test
     switch(parseInt(array_speed))
     {
         case 1: speed=1;
